@@ -1,0 +1,95 @@
+PROPRIETARY PREVIEW LICENSE
+
+Effective date: 2 September 2026
+Copyright (c) 2026 megameshgh. All rights reserved.
+
+This preview is currently available at no charge while its future direction is
+being evaluated. No commitment is made about future availability, features,
+licensing, pricing, or release of source code.
+
+1. Scope
+
+These terms apply to the software distributed with this file (the "Software"),
+except for third-party components identified in THIRD-PARTY-NOTICES.txt or in
+their own notices. "Rights Holder" means the person or legal entity that owns
+the copyright and related rights in the Software. "megameshgh" is the
+publishing name used for this preview.
+
+2. Preview permission
+
+Subject to these terms, the Rights Holder grants you a limited, non-exclusive,
+non-transferable permission to download, install, and use unmodified
+binary copies of the Software for personal use or internal evaluation. You may
+also make a reasonable number of backup copies for those purposes.
+
+3. Rights reserved
+
+The Software is proprietary and is not open-source software. All rights not
+expressly granted above are reserved. Unless the Rights Holder gives prior
+written permission, you may not distribute, publish, sublicense, sell, rent,
+lease, provide as a hosted service, modify, or create derivative works of the
+Software. You may not reverse engineer, decompile, or disassemble the Software,
+except to the extent applicable law expressly permits that activity despite
+this restriction.
+
+4. Third-party software
+
+Third-party components are governed by their own terms, not this license. Those
+terms may grant rights that this license does not. Nothing here restricts any
+right granted by a third-party license.
+
+5. Preview risk and warranties
+
+The Software is unfinished preview software. It starts and manages keyboard
+remapping software and may change without notice. A faulty or incompatible
+configuration can leave keys or modifiers stuck, prevent normal typing or
+shortcuts, interfere with window operation, or make the keyboard difficult or
+impossible to use until the remapping software is restarted or Windows is
+rebooted. Closing the Software may leave the remapping process running. Test
+configurations before enabling automatic startup, keep an independent way to
+regain control of the system, and maintain appropriate backups.
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE SOFTWARE IS PROVIDED
+"AS IS" AND "AS AVAILABLE," WITHOUT WARRANTIES, CONDITIONS, OR GUARANTEES OF
+ANY KIND, WHETHER EXPRESS, IMPLIED, OR STATUTORY, INCLUDING WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT.
+
+6. Limitation of liability
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE RIGHTS HOLDER WILL NOT BE
+LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, PUNITIVE, OR
+CONSEQUENTIAL LOSS; LOSS OF DATA, PROFITS, REVENUE, BUSINESS, OR GOODWILL; OR
+BUSINESS INTERRUPTION ARISING FROM OR RELATED TO THE SOFTWARE. TO THE SAME
+EXTENT, THE RIGHTS HOLDER'S TOTAL AGGREGATE LIABILITY ARISING FROM OR RELATED TO
+THE SOFTWARE WILL NOT EXCEED THE AMOUNT YOU PAID FOR THE SOFTWARE DURING THE
+TWELVE MONTHS BEFORE THE EVENT GIVING RISE TO THE CLAIM.
+
+These exclusions and limitations apply under any theory of liability and even
+if a remedy fails of its essential purpose. They do not apply where applicable
+law prohibits their exclusion or limitation.
+
+7. Mandatory law
+
+Nothing in these terms excludes, restricts, or modifies any right, guarantee,
+remedy, or liability that applicable law does not permit to be excluded,
+restricted, or modified. If applicable law prevents an exclusion or limitation
+from applying as written, it will apply to the maximum extent permitted by that
+law. This section controls over any conflicting provision in these terms.
+
+8. Termination
+
+This permission terminates automatically if you materially breach these terms.
+After termination, you must stop using and delete the Software, except for any
+copy that applicable law permits you to retain. Termination does not affect
+third-party license rights.
+
+9. General
+
+If any provision is unenforceable, it will be limited or removed only to the
+minimum extent necessary, and the remaining provisions will continue to apply.
+Failure to enforce a provision is not a waiver. These terms do not limit rights
+that cannot legally be limited. Translations, if provided, are for convenience;
+the English text controls to the extent permitted by applicable law.
+
+By installing or using the Software, you agree to these terms. If you do not
+agree, do not install or use the Software.
