@@ -16,7 +16,7 @@
 - **App files:** installed in `%LOCALAPPDATA%\romehow-app\current`. Paste that
   path into File Explorer. You don't need to install Kanata separately.
 - **Updates:** installed copies check at startup and every five minutes, then download in the
-  background. Once an update is ready, holding the switcher shows a five-second
+  background. Once an update is ready, holding the switcher shows a three-second
   countdown and relaunches romehow. Release to cancel the countdown. Your
   profiles and saved session stay intact. Map `@aupd` to check immediately.
   Enable the profiler with `@pfon` to see update status without holding the switcher.
