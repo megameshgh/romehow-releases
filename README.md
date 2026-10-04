@@ -15,10 +15,11 @@
   The alpha binaries are unsigned. Read `LICENSE.txt` before installing.
 - **App files:** installed in `%LOCALAPPDATA%\romehow-app\current`. Paste that
   path into File Explorer. You don't need to install Kanata separately.
-- **Updates:** installed copies check at startup and hourly, then download in the
+- **Updates:** installed copies check at startup and every five minutes, then download in the
   background. Once an update is ready, holding the switcher shows a five-second
   countdown and relaunches romehow. Release to cancel the countdown. Your
   profiles and saved session stay intact. Map `@aupd` to check immediately.
+  Enable the profiler with `@pfon` to see update status without holding the switcher.
 - **Not at login yet:** running automatically at login comes later.
 - **Uninstall:** remove romehow in Settings > Apps > Installed apps. This removes
   `romehow-app`, including its saved session. Your profiles stay untouched.
