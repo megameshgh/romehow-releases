@@ -20,6 +20,7 @@
   countdown and relaunches romehow. Release to cancel the countdown. Your
   profiles and saved session stay intact. Map `@aupd` to check immediately.
   Enable the profiler with `@pfon` to see update status without holding the switcher.
+- **Version:** hover over the tray icon to see your installed version.
 - **Not at login yet:** running automatically at login comes later.
 - **Uninstall:** remove romehow in Settings > Apps > Installed apps. This removes
   `romehow-app`, including its saved session. Your profiles stay untouched.
