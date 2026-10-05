@@ -1,0 +1,144 @@
+VELOPACK NATIVE SDK SUPPLEMENTAL NOTICES
+
+Velopack and velopack_libc
+------------------------
+The source archive declares local crate versions as 0.0.0-local; the reviewed
+SDK release is 1.2.161. Their common license is included in LICENSE.txt.
+Source: https://github.com/velopack/velopack/tree/1.2.161
+License: https://github.com/velopack/velopack/blob/1.2.161/LICENSE
+
+log-derive 0.4.1
+---------------
+The published crate omits its license files. Its .cargo_vcs_info.json pins
+the upstream revision below. This is that revision's MIT license notice.
+Source: https://github.com/elichai/log-derive/tree/c08e884237a7c53fa0aee442013ec7254fcfa9c0
+License: https://github.com/elichai/log-derive/blob/c08e884237a7c53fa0aee442013ec7254fcfa9c0/LICENSE-MIT
+
+MIT License
+
+Copyright (c) 2019 Elichai Turkel
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Windows installer, updater and execution stub
+--------------------------------------------
+The local velopack_bins and velopack_l18n crates share the Velopack license
+in LICENSE.txt. The source archive records them as 0.0.0-local, not the
+distributed 1.2.161 release number.
+
+fs_at 0.2.1
+-----------
+Declared author: Robert Collins. The crate and its upstream revision omit a
+license file but declare Apache-2.0 in Cargo.toml. The complete Apache-2.0
+terms are reproduced in INSTALLER-DEPENDENCIES.txt. There is no upstream
+NOTICE file at the pinned revision.
+Source: https://github.com/rbtcollins/fs_at/tree/e8b58a0682496a0c6ddc9eae80942a2f29a5a7e4
+
+sha1_smol 1.0.1 AUTHORS
+----------------------
+The complete crate LICENSE, including its BSD and MIT portions, is reproduced
+in INSTALLER-DEPENDENCIES.txt. The referenced AUTHORS file lists:
+- Armin Ronacher
+- Koka El Kiwi
+Source: https://github.com/mitsuhiko/sha1-smol/tree/f9d88bd70e9bd577c7c3afdc6acd0313af605324
+
+fluent-langneg 0.13.1 and 0.14.2
+------------------------------
+Both published crate archives omit the license files. Their pinned upstream
+MIT notices are identical and reproduced below.
+Sources:
+https://github.com/projectfluent/fluent-langneg-rs/blob/7fdc590466ea63ca2367ac10fb1b881fe561f1a8/LICENSE-MIT
+https://github.com/projectfluent/fluent-langneg-rs/blob/a161fed4c028436d5584ccadf77c799a65c16232/LICENSE-MIT
+
+Copyright Mozilla Foundation
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
+of the Software, and to permit persons to whom the Software is furnished to do
+so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+intl_pluralrules 7.0.2
+--------------------
+The published crate omits this MIT notice. The pinned upstream notice has no
+copyright line; none has been invented here.
+Source: https://github.com/zbraniecki/pluralrules/blob/d0715d5b7cca72e228d6e6c4de154bd30dfdd06a/intl_pluralrules/LICENSE-MIT
+
+Permission is hereby granted, free of charge, to any
+person obtaining a copy of this software and associated
+documentation files (the "Software"), to deal in the
+Software without restriction, including without
+limitation the rights to use, copy, modify, merge,
+publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software
+is furnished to do so, subject to the following
+conditions:
+
+The above copyright notice and this permission notice
+shall be included in all copies or substantial portions
+of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF
+ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED
+TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT
+SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR
+IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+DEALINGS IN THE SOFTWARE.
+
+webview2-com-sys 0.39.1
+---------------------
+The published crate omits the binding project's MIT notice.
+Source: https://github.com/wravery/webview2-rs/blob/edc2caf886175ccaebe86078c9cfe1ae2a187328/LICENSE
+
+MIT License
+
+Copyright (c) 2021 Bill Avery
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
