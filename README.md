@@ -27,9 +27,10 @@ Bundled: [Kanata v1.12.0][kanata-source] (LGPL-3.0-only).
 
 ## Install
 
-- **Windows 11 x64:** download the `Setup.exe` asset from the latest
-  [release](https://github.com/megameshgh/romehow-releases/releases) and run it.
-  The alpha binaries are unsigned. Read `LICENSE.txt` before installing.
+- **Windows 11 x64:** download `Setup.exe` only from the
+  [official releases](https://github.com/megameshgh/romehow-releases/releases).
+  The installer is unsigned, so Windows may warn that it is unrecognized.
+  Read `LICENSE.txt` before running it.
 - **App files:** `%LOCALAPPDATA%\romehow-app\current`.
   You don't need to install [Kanata][kanata-source] separately.
 - **Run at login:** fresh installs start when you sign in. Disable it in
@@ -41,6 +42,8 @@ Bundled: [Kanata v1.12.0][kanata-source] (LGPL-3.0-only).
 ## Profiles
 
 - **Works immediately:** romehow loads the bundled demo when you have no profiles.
+  The demo shows timing and typing diagnostics at the top of the screen. Your
+  own profile leaves the profiler off unless you enable it.
 - **Your files:** put your `.kbd` files in `%APPDATA%\romehow-profiles`.
   romehow creates the folder on first launch.
   Debug and Release use the same folder.
