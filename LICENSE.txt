@@ -38,6 +38,10 @@ Third-party components are governed by their own terms, not this license. Those
 terms may grant rights that this license does not. Nothing here restricts any
 right granted by a third-party license.
 
+Third-party notices and license texts are included with the software. After
+installation, see THIRD-PARTY-NOTICES.txt and the licenses folder beside
+romehow.exe. These files are also available in the public release repository.
+
 5. Preview risk and warranties
 
 The Software is unfinished preview software. It starts and manages keyboard
