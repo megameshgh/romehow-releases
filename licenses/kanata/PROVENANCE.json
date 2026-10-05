@@ -1,0 +1,18 @@
+{
+  "version": "v1.12.0",
+  "executable": "kanata_windows_tty_winIOv2_x64.exe",
+  "sourceArchive": "https://github.com/jtroo/kanata/archive/refs/tags/v1.12.0.zip",
+  "buildRecipe": "https://github.com/jtroo/kanata/blob/v1.12.0/.github/workflows/windows-build.yml",
+  "licenseSources": {
+    "LGPL-3.0.txt": "https://raw.githubusercontent.com/jtroo/kanata/v1.12.0/LICENSE",
+    "GPL-3.0.txt": "https://www.gnu.org/licenses/gpl-3.0.txt"
+  },
+  "cargoLockSha256": "eb420b18f8e240a47ebe4ef19bfa7e30b85b7ddf815ae63e5ba0a39f23d026b4",
+  "target": "x86_64-pc-windows-msvc",
+  "defaultFeatures": true,
+  "features": ["win_manifest", "win_sendinput_send_scancodes", "win_llhook_read_scancodes"],
+  "generator": "cargo-about 0.9.2",
+  "metadataToolchain": "1.90.0",
+  "includeBuildDependencies": true,
+  "includeDevDependencies": false
+}
