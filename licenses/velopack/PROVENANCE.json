@@ -1,0 +1,37 @@
+{
+  "version": "1.2.161",
+  "sdk_archive": "https://github.com/velopack/velopack/releases/download/1.2.161/velopack_libc_1.2.161.zip",
+  "sdk_archive_sha256": "31de8f2cf05a47bd5328a9f98b0c41aec1582156f6075f1058b26941f7f17c20",
+  "packaging_archive": "https://github.com/velopack/velopack/releases/download/1.2.161/vpk.1.2.161.nupkg",
+  "packaging_archive_sha256": "2b56ce117f803fc70c103cb423bd040e395e40370f6ff6e10818e9ff9c26a323",
+  "installer_binaries_sha256": {
+    "setup_x64.exe": "b4bac7fed188b173d36bac27f59376dfcac59c8db3f830858772b244c2308cab",
+    "update_x64.exe": "acefb4a2cb46cc77ed3c2364db17f8bd2a25e2197cfeae56cd85e88a7ac21ac5",
+    "stub_x64.exe": "405517cdd4fb8d106ada4ce1fd834b583b46c3a3e2a9da12b2d3c4b6d69999b5"
+  },
+  "installer_manifest": "src/bins/Cargo.toml",
+  "installer_features": ["windows"],
+  "webview2_loader": {
+    "version": "1.0.3800.47",
+    "package": "https://api.nuget.org/v3-flatcontainer/microsoft.web.webview2/1.0.3800.47/microsoft.web.webview2.1.0.3800.47.nupkg",
+    "package_sha256": "56c9f26bdd07916a2d1949fb58a5c7e434dfa1173577dca879206050c4e718db",
+    "static_library_sha256": "89c6b872783b8f6c3cedbff618adb42082d455c615453ae10cfc753f1e8f25d8",
+    "notice": "WEBVIEW2.txt",
+    "verification": "The x64 static loader in webview2-com-sys 0.39.1 matches the official Microsoft SDK library byte-for-byte. License and notice texts are reproduced from that package."
+  },
+  "upstream_executable": "lib/velopack_libc_win_x64_msvc.dll",
+  "bundled_executable": "velopack_libc.dll",
+  "executable_sha256": "3387c5f362501374b2f2d942466c3ec565ac573ec24e3d6e7679c0b8e7828b12",
+  "source_archive": "https://github.com/velopack/velopack/archive/refs/tags/1.2.161.zip",
+  "cargo_lock_sha256": "4cf7bc6f4ac71341477c7d068e938849d5272f9457b4da5f35fa96c72312b01a",
+  "manifest": "src/lib-cpp/Cargo.toml",
+  "build_recipe": "https://github.com/velopack/velopack/blob/1.2.161/.github/workflows/build-rust.yml",
+  "upstream_target": "x86_64-win7-windows-msvc",
+  "notice_target": "x86_64-pc-windows-msvc",
+  "features": "default SDK dependencies, including workspace-inherited file-logging and public-utils",
+  "include_build_dependencies": true,
+  "include_dev_dependencies": false,
+  "rust_toolchain_for_metadata": "1.90.0",
+  "cargo_about_version": "0.9.2",
+  "scope": "Cargo dependencies of the native SDK and Windows installer/updater/stub selected from the pinned source lockfile; not a binary-level attestation. The standard Windows x64 target filters the same OS/architecture dependencies as upstream's Win7 target. Packager-only .NET/vendor binaries are build tools, not distributed application payload. Generated installer resources and appended application packages change setup/stub hashes; the recorded hashes identify the upstream input binaries."
+}
