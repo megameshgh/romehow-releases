@@ -6,9 +6,6 @@
 >
 > Designed for laptop work with a touchpad and one screen. Mouse and multi-screen
 > fallbacks are supported but untested.
->
-> Primarily tested in dark mode. Light mode is available; romehow follows your
-> Windows system theme.
 
 Your keyboard control is powered by [Kanata][kanata-source], a powerful open-source
 keyboard remapper written in Rust. Its layers, tap-hold keys and chords let you
