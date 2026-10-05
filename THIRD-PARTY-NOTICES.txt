@@ -1,0 +1,95 @@
+THIRD-PARTY NOTICES
+
+The proprietary license in LICENSE.txt applies only to the proprietary
+Software. It does not replace, restrict, or modify the licenses of the
+third-party software identified below.
+
+Svelte spring math
+------------------
+
+spring.h adapts the scalar spring calculation from Svelte (MIT license).
+Copyright (c) 2016-2025 Svelte Contributors
+Source: https://github.com/sveltejs/svelte/blob/a94924b67721e8b3151ebf1622691b1902c9bf85/packages/svelte/src/motion/spring.js
+Modifications: standalone C++ scalar helper; no stores, runtime, or scheduler.
+The full copyright and permission notice is included in licenses\svelte\LICENSE.md.
+
+Kanata
+------
+
+BEGIN KANATA RELEASE
+Project: Kanata
+Bundled version: v1.12.0
+Bundled executable: kanata_windows_tty_winIOv2_x64.exe
+Modifications: None; the official upstream executable is redistributed
+unchanged.
+Copyright: Kanata contributors
+Corresponding source: https://github.com/jtroo/kanata/tree/v1.12.0
+Source archive: https://github.com/jtroo/kanata/archive/refs/tags/v1.12.0.zip
+License: GNU Lesser General Public License v3.0 only (LGPL-3.0-only)
+License text: https://github.com/jtroo/kanata/blob/v1.12.0/LICENSE
+END KANATA RELEASE
+
+Kanata is separate software. The proprietary application starts Kanata as a
+separate process and communicates with it through its public TCP interface.
+Kanata and its dependencies retain their respective licenses; distributing
+them alongside the proprietary application does not change those licenses.
+
+Binary packages include verbatim copies of the GNU LGPL v3 and GNU GPL v3 in
+licenses\kanata. The corresponding source is offered at the version-specific
+locations above. If those upstream locations become unavailable while the
+binary package remains available, the distributor must restore equivalent
+access to the corresponding source.
+
+The dependency license texts and copyright notices for the bundled Windows
+build are included in licenses\kanata\DEPENDENCIES.txt and SUPPLEMENTAL.txt
+in the same directory. Generation details and the matching source lockfile
+hash are in licenses\kanata\PROVENANCE.json.
+
+Kanata is not affiliated with or endorsed by the Rights Holder of the
+proprietary Software.
+
+Everything SDK IPC interface
+----------------------------
+
+romehow uses IPC protocol definitions derived from the Everything SDK. It does
+not include or redistribute the Everything application or SDK binaries.
+
+Copyright (C) 2022 David Carpenter
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
+of the Software, and to permit persons to whom the Software is furnished to do
+so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Source: https://www.voidtools.com/support/everything/sdk/
+
+Velopack native SDK and installer
+--------------------------------
+
+Bundled version: 1.2.161
+Bundled executable: velopack_libc.dll
+Modifications: None; the official Windows x64 DLL is renamed to match its
+upstream import library's runtime name, without changing its contents.
+Source: https://github.com/velopack/velopack/tree/1.2.161
+License: MIT
+Copyright: 2021 Caelan Sayler; 2024 Velopack Ltd.
+
+The full license, dependency notices, supplemental attributions and version
+metadata are included in licenses\velopack. Versioned crates.io source links
+are included in the dependency notices. DEPENDENCIES.txt covers the native
+SDK; INSTALLER-DEPENDENCIES.txt covers the Windows installer, updater and
+launcher stub. WEBVIEW2.txt preserves Microsoft's SDK loader license and
+notices. The build-time packaging tool itself is not included in the app.
