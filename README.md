@@ -8,13 +8,28 @@
 > can leave keys stuck or prevent normal input. You may need to restart Windows
 > to regain control.
 
+Your keyboard control is powered by [Kanata][kanata-source], a powerful open-source
+keyboard remapper written in Rust. Its layers, tap-hold keys and chords let you
+shape your keyboard around how you work. Romehow runs the official, unmodified
+release as a separate program through its public TCP interface.
+
+<!-- BEGIN KANATA RELEASE -->
+Bundled: [Kanata v1.12.0][kanata-source] (LGPL-3.0-only).
+[Source archive][kanata-source-archive] | [License][kanata-license] |
+[Third-party notices](THIRD-PARTY-NOTICES.txt).
+
+[kanata-source]: https://github.com/jtroo/kanata/tree/v1.12.0
+[kanata-source-archive]: https://github.com/jtroo/kanata/archive/refs/tags/v1.12.0.zip
+[kanata-license]: https://github.com/jtroo/kanata/blob/v1.12.0/LICENSE
+<!-- END KANATA RELEASE -->
+
 ## Install
 
 - **Windows 11 x64:** download the `Setup.exe` asset from the latest
   [release](https://github.com/megameshgh/romehow-releases/releases) and run it.
   The alpha binaries are unsigned. Read `LICENSE.txt` before installing.
 - **App files:** installed in `%LOCALAPPDATA%\romehow-app\current`. Paste that
-  path into File Explorer. You don't need to install Kanata separately.
+  path into File Explorer. You don't need to install [Kanata][kanata-source] separately.
 - **Updates:** installed copies check at startup and every five minutes, then download in the
   background. Once an update is ready, holding the switcher shows a three-second
   countdown and relaunches romehow. Release to cancel the countdown. Your
@@ -37,7 +52,7 @@
   profile, include its quoted absolute path. For an installed copy, open the app
   files folder above and copy the full path of `app.bridge.kbd`, for example
   `(include "C:/Users/yourname/AppData/Local/romehow-app/current/app.bridge.kbd")`.
-  Replace that example with your actual path. Kanata includes do not expand `~`
+  Replace that example with your actual path. [Kanata][kanata-source] includes do not expand `~`
   or environment variables.
 - **Customize the demo:** copy `app.demo.kbd` from beside the executable into your
   profiles folder as `00-main.kbd`, then change its include as described above.
