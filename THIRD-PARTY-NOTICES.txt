@@ -4,6 +4,9 @@ The proprietary license in LICENSE.txt applies only to the proprietary
 Software. It does not replace, restrict, or modify the licenses of the
 third-party software identified below.
 
+Paths below refer to the installation or public release repository. In the
+source repository, the license bundles are under native/licenses/.
+
 Svelte spring math
 ------------------
 
