@@ -1,11 +1,7 @@
 # romehow
 
-> [!CAUTION]
-> Alpha for invited testers only. Do not install this unless you were invited
-> and know what it is.
->
-> Designed for laptop work with a touchpad and one screen. Mouse and multi-screen
-> fallbacks are supported but untested.
+> [!NOTE]
+> Read the [install notes](INSTALL-NOTES.md) before downloading.
 
 Your keyboard control is powered by [Kanata][kanata-source], a powerful open-source
 keyboard remapper written in Rust. Its layers, tap-hold keys and chords let you
@@ -26,12 +22,13 @@ Bundled: [Kanata v1.12.0][kanata-source] (LGPL-3.0-only).
 
 - **Windows 11 x64:** download `Setup.exe` only from the
   [official releases](https://github.com/megameshgh/romehow-releases/releases).
-  The installer is unsigned, so Windows may warn that it is unrecognized.
   Read `LICENSE.txt` before running it.
 - **App files:** `%LOCALAPPDATA%\romehow-app\current`.
   You don't need to install [Kanata][kanata-source] separately.
 - **Run at login:** fresh installs start when you sign in. Disable it in
   Windows Settings > Apps > Startup.
+- **Updates:** romehow checks automatically. When an update is ready, hold the
+  switcher for three seconds to install it. Release to cancel the countdown.
 - **Uninstall:** remove romehow in Settings > Apps > Installed apps. This removes
   `romehow-app`, including its saved session. Your profiles in
   `%APPDATA%\romehow-profiles` stay untouched.
